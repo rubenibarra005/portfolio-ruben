@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">   
+</head>
+<body>
+   <!-- Barra de navegacion-->
+    <nav class="navbar bg-primary navbar-expand-lg fixed-top" data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Ruben Ibarra</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="#inicio">Inicio</a>
+              <a class="nav-link" href="#sobreMi">Sobre Mi</a>
+              <a class="nav-link" href="#experiencia">Experiencia</a>
+              <a class="nav-link" href="#educacion">Educación</a>
+              <a class="nav-link" href="#logros">Logros</a>
+              <a class="nav-link" href="#contacto">Contacto</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+    <!-- Inicio-->
+    <section id="inicio" class="container-fluid vh-100 d-flex align-items-center">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6 text-md-start text-center">
+            <h1 class="fw-bold display-4">Hola, soy Rubén</h1>
+            <p class="fs-4 text-muted">
+              Soy estudiante de ingeniería en computación en la UAM Azcapotzalco. Además disfruto aprendiendo Ciberseguridad en mis tiempos libres. </p>
+            <a href="#contacto" class="btn btn-dark px-4 py-2 mt-3">Contáctame</a>
+            <a href="/Documentos/CV Rubén.pdf" target="_blank" class = "btn btn-dark text-bg-primary px-4 py-2 mt-3"> Curriculum </a>
+          </div>
+          <div class="col-md-6 text-center">
+            <img src="/imagenes/WhatsApp Image 2024-03-20 at 19.33.48_19d007c2.jpg" class="img-fluid rounded-circle shadow-lg" alt="imgHome" 
+            style="max-width: 350px; object-fit: cover;">
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Sobre mí -->
+    <section id="sobreMi" class="container-fluid desplazamiento text-dark py-6">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-4 text-center">
+            <img src="ruta-a-tu-foto.jpg" alt="Foto de perfil" class="img-fluid rounded-circle mb-4" style="width: 150px; height: 150px;">
+          </div>
+          <div class="col-md-8">
+            <h2 class="fw-bold">Rubén Sebastián Correa Ibarra</h2>
+            <p class="lead mb-3">Estudiante de Ingeniería en Computación en la UAM Azcapotzalco</p>
+            <p>
+              Apasionado por la ciberseguridad y el análisis de riesgos tecnológicos. Durante mi beca en BBVA, desarrollé dashboards interactivos en Looker Studio, participé en proyectos de desarrollo web y analicé regulaciones financieras como DORA.
+            </p>
+            <p>
+              Mis habilidades combinan conocimientos técnicos con una perspectiva analítica para contribuir a proyectos innovadores en tecnología.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+
+<!-- Experiencia -->
+<section id="experiencia" class="container-fluid  py-6 desplazamiento">
+  <div class="container">
+    <h2 class="text-center mb-4"><i class="bi bi-briefcase-fill"></i> Experiencia Profesional</h2>
+    <div class="row">
+      
+      <div class="col-md-6">
+        <div class="card mb-3">
+          <div class="card-body">
+            <h5 class="card-title"><i class="bi bi-building"></i> BBVA - Gestión de Riesgos TI</h5>
+            <p class="card-text">Apoyo en la creación de dashboards y análisis de vulnerabilidades. Realización de análisis comparativo entre la regulación DORA y normativas mexicanas.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="card mb-3">
+          <div class="card-body">
+            <h5 class="card-title"><i class="bi bi-code-slash"></i> Proyectos Tecnológicos</h5>
+            <p class="card-text">Implementación de herramientas para la gestión de riesgos y análisis de datos en proyectos académicos y laborales.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--Educacion-->
+<section id="educacion" class="container-fluid desplazamiento bg-white text-dark py-6">
+  <div class="container">
+    <h2 class="fw-bold text-center mb-4"><i class="bi bi-mortarboard-fill"></i> Educación</h2>
+    <div class="row justify-content-center">
+      <div class="col-md-8">
+        <!-- Educación principal -->
+        <div class="card mb-4 border-info">
+          <div class="card-body">
+            <h5 class="card-title fw-bold">Ingeniería en Computación</h5>
+            <p class="card-text mb-2"><strong>Institución:</strong> Universidad Autónoma Metropolitana (UAM), Azcapotzalco</p>
+            <p class="card-text mb-2"><strong>Fecha de graduación:</strong> Diciembre 2025</p>
+          </div>
+        </div>
+        <!-- Cursos y Diplomados -->
+        <div class="card mb-3 border-secondary">
+          <div class="card-body">
+            <h5 class="card-title fw-bold">Formación Adicional</h5>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item"><i class="bi bi-award-fill text-success"></i> Diplomado en Ciberseguridad - Universidad Iberoamericana</li>
+              <li class="list-group-item"><i class="bi bi-award-fill text-success"></i> Lead Cybersecurity Professional Certification (LCSPC) - Certiprof</li>
+              <li class="list-group-item"><i class="bi bi-award-fill text-success"></i> Cursos en Protección de Datos Personales, Ciberseguridad y Big Data - BBVA</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Logros -->
+<section id="logros" class="container-fluid  py-5 desplazamiento">
+  <div class="container">
+    <h2 class="text-center mb-4"><i class="bi bi-trophy-fill"></i> Logros</h2>
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item"><i class="bi bi-star-fill text-warning"></i> En 2024 entre como becario en BBVA, lo cual me permitio explorar el mundo de la Ciberseguridad</li>
+      <li class="list-group-item"><i class="bi bi-star-fill text-warning"></i> Creación de dashboards efectivos para la visualización de vulnerabilidades TI en BBVA.</li>
+      <li class="list-group-item"><i class="bi bi-star-fill text-warning"></i> Participación en proyectos de análisis regulatorio entre DORA y normativas mexicanas.</li>
+      <li class="list-group-item"><i class="bi bi-star-fill text-warning"></i> Creación de estrategia de ciberseguridad (en equipo)</li>
+    </ul>
+  </div>
+</section>
+      <!-- Contacto-->
+      <section id="contacto" class="container-fluid fullView desplazamiento bg-primary text-light d-flex flex-column justify-content-center">
+        <div class="container">
+          <h1 class="display-3 fw-bold mb-4">Contacto</h1>
+          <div class="row mb-5">
+            <div class="col-md-6">
+              <p><strong>Correo:</strong> rsi050901@hotmail.com</p>
+              <p><strong>Dirección:</strong> México, Ciudad De México</p>
+            </div>
+            <div class="col-md-6 text-md-end">
+              <p><strong>Móvil:</strong> 56 4941 6433</p>
+            </div>
+          </div>
+          <div class="text-center">
+            <p class="mb-3">Redes</p>
+            <div class="d-flex justify-content-center gap-3">
+              <a href="mailto:rsi050901@hotmail.com?Subject=Hola Ruben!!" class="text-light fs-3"><i class="bi bi-envelope"></i></a>
+              <a href="https://wa.me/5586142935" target="_blank" class="text-light fs-3"><i class="bi bi-whatsapp"></i></a>
+              <a href="https://www.linkedin.com/in/ruben-ibarra-53191b319/" target="_blank" class="text-light fs-3"><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+</body>
+</html>
